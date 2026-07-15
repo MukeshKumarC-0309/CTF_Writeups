@@ -1,6 +1,6 @@
 # CTF Writeups
 
-Personal collection of Capture The Flag challenge writeups spanning web exploitation, binary exploitation, cryptography, forensics, reverse engineering, hardware, and Linux fundamentals — sourced from picoCTF, Root-Me, and other CTF platforms.
+Personal collection of Capture The Flag challenge writeups spanning web exploitation, binary exploitation, cryptography, forensics, reverse engineering, hardware, and Linux fundamentals — sourced from picoCTF, Root-Me, and CryptoHack.
 
 **Maintained by:** [Cyber Vortex](https://github.com/MukeshKumarC-0309)
 **TryHackMe:** [tryhackme.com/p/mukeshkumarc0309](https://tryhackme.com/p/mukeshkumarc0309) — Top 15% globally
@@ -11,13 +11,14 @@ Personal collection of Capture The Flag challenge writeups spanning web exploita
 
 | Category | Writeups | Challenges Covered |
 |---|---|---|
-| [Web Exploitation](./Web_Exploitation) | 14 files | SQLi, SSTI, cookie tampering, client-side bypass, directory traversal, GraphQL introspection, broken access control |
-| [Forensics](./Forensics) | 14 files | Steganography, PCAP/Wireshark analysis, disk forensics, file carving, polyglot files |
-| [Cryptography](./Cryptography) | 9 files | ROT13/Caesar, RSA attacks, hash cracking, custom encryption schemes |
+| [Web Exploitation](./Web_Exploitation) | 15 files | SQLi, SSTI, cookie tampering, client-side bypass, directory traversal, GraphQL introspection, broken access control |
+| [Forensics](./Forensics) | 15 files | Steganography, PCAP/Wireshark analysis, disk forensics, file carving, polyglot files |
+| [Cryptography](./Cryptography) | 28 files | ROT13/Caesar/Vigenère, RSA attacks, hash cracking, XOR ciphers, encoding fundamentals (hex/Base64/ASCII), one-time pads |
 | [Linux Basics](./Linux_Basics) | 12 files | Shell fundamentals, Python scripting, encoding, file inspection |
 | [Binary Exploitation](./Binary_Exploitation) | 3 files | Buffer overflow, format string vulnerabilities, clutter overflow |
 | [Reverse Engineering](./Reverse) | 3 files | GDB debugging, ARM assembly, binary analysis |
 | [Hardware](./Hardware) | 2 files | Logic analysis, IQ test-style hardware puzzles |
+| **Total** | **78 writeups** | |
 
 ---
 
@@ -73,6 +74,25 @@ Personal collection of Capture The Flag challenge writeups spanning web exploita
 | Hashcrack | [Hashcrack.md](./Cryptography/Hashcrack.md) |
 | Hide to See | [Hide_to_See.md](./Cryptography/Hide_to_See.md) |
 | Mind Your P's and Q's | [Mind_your_Ps_and_Qs.md](./Cryptography/Mind_your_Ps_and_Qs.md) |
+| 2Warm | [2Warm.md](./Cryptography/2Warm.md) |
+| Glory of the Garden | [Glory_of_the_Garden.md](./Cryptography/Glory_of_the_Garden.md) |
+| The Numbers | [The_Numbers.md](./Cryptography/The_Numbers.md) |
+| Vigenere | [Vigenere.md](./Cryptography/Vigenere.md) |
+| Easy1 | [Easy1.md](./Cryptography/Easy1.md) |
+| Finding Flags | [Finding_Flags.md](./Cryptography/Finding_Flags.md) |
+| Great Snakes | [Great_Snakes.md](./Cryptography/Great_Snakes.md) |
+| ASCII | [ASCII.md](./Cryptography/ASCII.md) |
+| Hex | [Hex.md](./Cryptography/Hex.md) |
+| Base64 | [Base64.md](./Cryptography/Base64.md) |
+| Bytes and Big Integers | [Bytes_and_Big_Integers.md](./Cryptography/Bytes_and_Big_Integers.md) |
+| XOR Starter | [XOR_Starter.md](./Cryptography/XOR_Starter.md) |
+| XOR Properties | [XOR_Properties.md](./Cryptography/XOR_Properties.md) |
+| Favourite byte | [Favourite_byte.md](./Cryptography/Favourite_byte.md) |
+| You either know, XOR you don't | [You_either_know_XOR_you_dont.md](./Cryptography/You_either_know_XOR_you_dont.md) |
+| New Caesar | [New_Caesar.md](./Cryptography/New_Caesar.md) |
+| Factoring | [Factoring.md](./Cryptography/Factoring.md) |
+| No Padding, No Problem | [No_Padding_No_Problem.md](./Cryptography/No_Padding_No_Problem.md) |
+| rsa-pop-quiz | [rsa-pop-quiz.md](./Cryptography/rsa-pop-quiz.md) |
 
 ### 🐧 Linux Basics
 | Challenge | Writeup |
