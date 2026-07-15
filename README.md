@@ -1,1 +1,1 @@
-# PicoCTF_Writeups
+# CTF_Writeups
